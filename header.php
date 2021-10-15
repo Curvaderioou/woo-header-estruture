@@ -15,7 +15,7 @@
   $cart_count= WC()->cart->get_cart_contents_count();
 ?>
 
-<header class="header">
+<header class="header conteiner">
   <a href="/"><img src="<?= $img_url; ?>/handel.svg" alt="Logotipo da Marca Handel"></a>
   <div class="busca">
     <form action="<?php bloginfo('url')?>/loja/" method="get">
